@@ -113,7 +113,9 @@ address{
 .team{
     background-color: #F4F4FD;
 }
-
+.team-list-item{
+    background-color: #FFFFFF;
+}
 .team .team-title{
     color: #2e2f42;
     font-size: 36px;
