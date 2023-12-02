@@ -113,9 +113,7 @@ address{
 .team{
     background-color: #F4F4FD;
 }
-.team .team-list{
-    background-color: #FFFFFF;
-}
+
 .team .team-title{
     color: #2e2f42;
     font-size: 36px;
@@ -132,6 +130,7 @@ address{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    background-color: #FFFFFF;
 }
 .team-text{
     color: #434455;
