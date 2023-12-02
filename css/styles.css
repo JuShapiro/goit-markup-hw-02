@@ -1,0 +1,137 @@
+/*base styles */
+body{
+    font-family: 'Roboto', 'Raleway';
+    font-size: 16px;
+    font-style: normal;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* header */
+
+.logo {
+    color: #4D5AE5;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+}
+
+.logo-dark {
+ color: #2E2F42;
+}
+
+.nav .header-list .header-link {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 0.13
+}
+.nav .header-list .header-link:hover{
+    color:#4D5AE5;
+} 
+.address .address-list .address-link {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.address .address-list .address-link:hover{
+    color: #4D5AE5;
+}
+
+
+
+/* hero page */
+.hero {
+    background-color: #2E2F42;
+}
+.hero .hero-title{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.08;
+}
+button {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    background: #4D5AE5;
+    text-align: center;
+}
+
+/* main */
+
+/*section adv*/
+
+.adv-list-item-title{
+    color:#2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2
+}
+.adv-text{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/*section team*/
+.team-item-title{
+    color:#2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.team-text{
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/* section portfolio */
+.port-list-item-title{
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.port-text{
+    color:  #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/*footer*/
+.footer{
+    background: #2E2F42;
+}
+.footer-text {
+    color: #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.logo-light {
+ color: #F4F4FD;
+}
