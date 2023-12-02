@@ -111,7 +111,10 @@ address{
 }
 /*section team*/
 .team{
-    background-color: #F4F4FD;
+   color:#F4F4FD;
+}
+.team-list{
+    background-color: #FFFFFF;
 }
 .team .team-title{
     color: #2e2f42;
@@ -121,9 +124,7 @@ address{
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team .team-list{
-    background-color: #FFFFFF;
-}
+
 .team-item-title{
     color:#2E2F42;
     font-family: Roboto;
