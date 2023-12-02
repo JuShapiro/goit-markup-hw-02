@@ -12,6 +12,9 @@ ul {
 a{
     text-decoration: none;
 }
+address{
+    font-style: normal;
+}
 /* header */
 
 .logo {
@@ -46,10 +49,11 @@ a{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    font-style: normal;
+    letter-spacing: 0.02em 
 }
-.address .address-list .address-link:hover{
-    color: #4D5AE5;
+.address .address-list .address-link:hover,
+.address .address-list .address-link:focus{
+    color: #404bbf;
 }
 
 
@@ -110,13 +114,14 @@ a{
     background-color: #F4F4FD;
 }
 .team .team-title{
+    color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team-list{
+.team .team-list{
     background-color: #FFFFFF;
 }
 .team-item-title{
@@ -137,6 +142,7 @@ a{
 }
 /* section portfolio */
 .port-title{
+    color: #2e2f42;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
