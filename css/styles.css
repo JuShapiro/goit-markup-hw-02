@@ -111,9 +111,9 @@ address{
 }
 /*section team*/
 .team{
-   color:#F4F4FD;
+    background-color: #F4F4FD;
 }
-.team-list{
+.team .team-list{
     background-color: #FFFFFF;
 }
 .team .team-title{
